@@ -5,7 +5,8 @@ Enterprise-ready Node.js runtime environment optimized for containerized applica
 📌 **Base Foundation**: Production-ready container from cleanstart.
 
 **Image Path**: `ghcr.io/cleanstart-containers/node`
-**Registry**: cleanstart Registry
+
+**Registry**: `cleanstart`
 
 ## Key Features
 Core capabilities and strengths of this container
@@ -21,13 +22,10 @@ Typical scenarios where this container excels
 Download the container image from the registry
 
 ```bash
-docker pull ghcr.io/cleanstart-containers/node:node
+docker pull ghcr.io/cleanstart-containers/node:latest
 ```
 ```bash
-docker pull ghcr.io/cleanstart-containers/node:javascript
-```
-```bash
-docker pull ghcr.io/cleanstart-containers/node:typescript
+docker pull ghcr.io/cleanstart-containers/node:latest-dev
 ```
 
 ## Basic Run
