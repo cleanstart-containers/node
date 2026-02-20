@@ -1,0 +1,6 @@
+{
+  "name": "node-sample",
+  "version": "1.0.0",
+  "description": "Sample Node app for cleanstart/node image",
+  "main": "server.js"
+}
